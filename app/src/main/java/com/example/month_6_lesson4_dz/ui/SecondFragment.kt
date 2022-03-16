@@ -27,9 +27,11 @@ class SecondFragment : Fragment() {
 
         binding.apply {
             btnPlus.setOnClickListener{
+                model.clear()
                 model.add()
             }
             btnMinus.setOnClickListener{
+                model.clear()
                 model.zero()
             }
         }

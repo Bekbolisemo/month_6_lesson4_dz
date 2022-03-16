@@ -10,7 +10,6 @@ import com.example.month_6_lesson4_dz.ui.ThirdFragment
 class AddAdapter(fragment:FragmentActivity):FragmentStateAdapter(fragment) {
     override fun getItemCount() = 3
 
-
     override fun createFragment(position: Int): Fragment {
         return when(position){
             0-> {

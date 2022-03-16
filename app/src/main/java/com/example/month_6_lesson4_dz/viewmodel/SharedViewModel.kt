@@ -23,4 +23,7 @@ class SharedViewModel: ViewModel() {
         list.add("- \n")
         arrayList.value = list
     }
+    fun clear(){
+        list.clear()
+    }
 }
